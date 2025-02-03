@@ -228,7 +228,7 @@ resource keyVaultSecretUserRoleAssignment 'Microsoft.Authorization/roleAssignmen
   properties: {
     roleDefinitionId: keyVaultSecretUserRoleRoleDefinition.id
     principalId: principalId
-    principalType: 'User'
+    principalType: 'ServicePrincipal'
   }
 }
 
